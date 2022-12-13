@@ -46,7 +46,7 @@
                 <tr>
                     <th>Full Name: </th>
                     <td>
-                        <input type="text" name="fullName" size="45"
+                        <input type="text" name="fullName" size="50"
                                value="<c:out value='${employee.fullName}' />"
                         />
                     </td>
@@ -54,7 +54,7 @@
                 <tr>
                     <th>Date of Birth: </th>
                     <td>
-                        <input type="date" name="birthDate" size="45"
+                        <input type="date" name="birthDate"
                                value="<c:out value='${employee.birthDate}' />"
                         />
                     </td>
@@ -62,7 +62,7 @@
                 <tr>
                     <th>Position: </th>
                     <td>
-                        <input type="text" name="position" size="5"
+                        <input type="text" name="position" size="45"
                                value="<c:out value='${employee.position}' />"
                         />
                     </td>
